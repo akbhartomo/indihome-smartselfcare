@@ -1,9 +1,9 @@
 body {
-  @apply overscroll-none bg-transparent;
+  @apply overscroll-none bg-telkomsel-grey-light font-normal;
 }
 
 :root {
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-poppins);
   --header-height: calc(var(--spacing) * 12 + 1px);
 }
 
@@ -28,6 +28,7 @@ body {
 
 .theme-default,
 .theme-default-scaled {
+  --font-sans: var(--font-poppins);
   --primary: var(--color-neutral-600);
   --primary-foreground: var(--color-neutral-50);
 

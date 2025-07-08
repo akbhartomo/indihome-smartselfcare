@@ -16,8 +16,8 @@ const META_THEME_COLORS = {
 };
 
 export const metadata: Metadata = {
-  title: 'Next Shadcn',
-  description: 'Basic dashboard with Next.js and Shadcn'
+  title: 'Indihome Smart Selfcare',
+  description: 'Indihome Smart Selfcare',
 };
 
 export const viewport: Viewport = {

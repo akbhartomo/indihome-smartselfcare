@@ -39,6 +39,10 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --telkomsel-red-one: #ED0226;
+  --telkomsel-red-two: #B90024;
+  --telkomsel-grey-light: #E9EFF5;
+  --telkomsel-grey-border: #DAE0E9;
 }
 
 .dark {
@@ -111,6 +115,10 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-telkomsel-red-one: var(--telkomsel-red-one);
+  --color-telkomsel-red-two: var(--telkomsel-red-two);
+  --color-telkomsel-grey-light: var(--telkomsel-grey-light);
+  --color-telkomsel-grey-border: var(--telkomsel-grey-border);
 }
 
 @layer base {
