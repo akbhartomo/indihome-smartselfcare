@@ -43,6 +43,7 @@
   --telkomsel-red-two: #B90024;
   --telkomsel-grey-light: #E9EFF5;
   --telkomsel-grey-border: #DAE0E9;
+  --telkomsel-accent-green:#34C759;
 }
 
 .dark {
@@ -119,6 +120,7 @@
   --color-telkomsel-red-two: var(--telkomsel-red-two);
   --color-telkomsel-grey-light: var(--telkomsel-grey-light);
   --color-telkomsel-grey-border: var(--telkomsel-grey-border);
+  --color-telkomsel-accent-green: var(--telkomsel-accent-green);
 }
 
 @layer base {
