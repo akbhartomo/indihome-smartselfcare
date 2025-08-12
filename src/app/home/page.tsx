@@ -1,6 +1,6 @@
 import PageContainerMobile from '@/components/layout/Mobile/page-container-mobile';
 import { Card } from '@/components/ui/card';
-import { IconDevice, IconGlobe } from '@/lib/icons';
+import { IconAIFill, IconDevice, IconGlobe } from '@/lib/icons';
 import {
   IconArrowDown,
   IconArrowLeft,
@@ -109,6 +109,20 @@ export default async function Page() {
               </div>
             </div>
           </Card>
+        </div>
+      </section>
+      <section className="fixed bottom-0 left-0 w-full h-[116px] bg-white px-4 py-4 border-t-1 border-slate-400">
+        <button className="bg-transparent border-red-500 border-2 text-red-500 font-semibold text-lg px-4 py-2 rounded-full w-full">
+          Akses Smart Selfcare
+        </button>
+        <div className="flex gap-2">
+          <Image
+            src={IconAIFill}
+            alt='ico-ail'
+            width={24}
+            height={24}
+          />
+          <p className="text-[10px] mt-2 text-slate-500">Smart Selfcare membantu Anda menyelesaikan permasalahan secara pribadi menggunakan teknologi AI.</p>
         </div>
       </section>
     </PageContainerMobile>
